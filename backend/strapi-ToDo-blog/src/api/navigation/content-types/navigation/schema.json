@@ -4,7 +4,8 @@
   "info": {
     "singularName": "navigation",
     "pluralName": "navigations",
-    "displayName": "Navigation "
+    "displayName": "Navigation ",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "navdescription": {
       "type": "richtext"
+    },
+    "demo": {
+      "type": "string"
     }
   }
 }
