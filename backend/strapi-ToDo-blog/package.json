@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "strapi-to-do-blog",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,21 +9,21 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.10.4",
-    "@strapi/plugin-users-permissions": "4.10.4",
-    "@strapi/strapi": "4.10.4",
-    "better-sqlite3": "8.0.1",
-    "strapi-plugin-import-export-entries": "^1.21.0"
+    "@strapi/strapi": "4.12.5",
+    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/plugin-i18n": "4.12.5",
+    "better-sqlite3": "8.5.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "7e06e417-a7ca-4140-9da9-47a9ae6052aa"
+    "uuid": "009c1f83-d883-4ad8-82aa-00a46e19a10a"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
