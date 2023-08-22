@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_carosuals",
+  "info": {
+    "displayName": "Carosual"
+  },
+  "options": {},
+  "attributes": {
+    "imgtitle": {
+      "type": "string"
+    }
+  }
+}

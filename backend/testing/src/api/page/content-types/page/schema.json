@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Home": {
+      "displayName": "Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Bio": {
+      "type": "richtext"
+    },
+    "Carosual": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.carosual"
+    }
+  }
+}
