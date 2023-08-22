@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "Footer"
+    "displayName": "Footer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "Text": {
-      "type": "string"
+      "type": "text"
     },
     "Description": {
       "type": "richtext"
