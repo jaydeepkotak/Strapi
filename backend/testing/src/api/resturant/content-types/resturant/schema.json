@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resturants",
+  "info": {
+    "singularName": "resturant",
+    "pluralName": "resturants",
+    "displayName": "Resturant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
